@@ -1,0 +1,54 @@
+/* CSS for jDownloads Featured, Last Updated, Latest, Most Recent, Rated, Related and Top Modules
+version jd3.9.8 updated 17 May 2021 CAM
+*/
+code {
+    background-color: #fff !important;
+	border: none !important;
+	color: #000 !important;
+	padding: 0 !important;
+	white-space: nowrap; 
+}
+/* Text field for top text*/
+.jd_module_before {
+    display:block;
+	font-size: medium;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+/* Text field for the bottom text*/
+.jd_module_after {
+    display:block;
+	font-size: medium;
+	padding: 0 0 10px 0;
+}
+
+.jd_module_date_newline {
+	font-size: small;
+	}
+.jd_module_date_sameline {
+	font-size: small;
+	}
+	
+.jd_module_hits_newline {
+	font-size: medium;
+	}
+.jd_module_hits_sameline {
+	font-size: medium;
+	}
+.jd_module_thumbnail,	
+.jd_module_pic {
+    border:0;
+    padding:2px 0;
+	vertical-align:top;
+}
+.jd_module_link {
+	
+}
+.jd_module_numbering {
+	padding-right: 0;
+}
+.jd_module_title {
+  font-size: 11px;
+  font-weight: bold;
+}

@@ -1,0 +1,81 @@
+/*******************************************
+***          YT Framework: css          ***
+*******************************************/
+
+
+/* Medium devices Desktops  
+// ------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+    img.caption {
+        float: left;
+        margin-right: 10px;
+        border: 5px solid #E5E5E5;
+    }
+}
+
+/* Small devices Tablets	
+// ------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+    img.caption {
+        float: left;
+        margin-right: 10px;
+        border: 5px solid #E5E5E5;
+    }
+    .acym_module_form .onefield .button {
+        margin-left: 10px;
+        border-radius: 3px;
+    }
+}
+
+/* Extra small devices Phones
+// ------------------*/
+@media (max-width: 767px){
+    img.caption {
+        float: left;
+        margin-right: 10px;
+        border: 5px solid #E5E5E5;
+    }
+    .acym_module_form .onefield .button {
+        margin-left: 10px;
+        border-radius: 3px;
+    }
+
+}
+
+.module.top-social-icon {
+    padding: 12px 0 0;
+    margin: 0;
+    /*display: inline-block;
+    float: right;*/
+}
+.module.top-social-icon .list-icon {
+    text-align: right;
+}
+.module.top-social-icon .list-icon div.yt-socialbt {
+    margin: 0;
+}
+.module.top-social-icon .list-icon div.yt-socialbt a {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.module.top-social-icon .list-icon div.yt-socialbt a i {
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+.module.top-social-icon .list-icon div.yt-socialbt a:hover i {
+    animation: myeffect 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+div.itemLinks {
+    margin: 10px 0;
+    padding: 0;
+}
+.acym_module_form .onefield .button {
+    margin-left: 10px;
+    border-radius: 3px;
+}

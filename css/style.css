@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;  
+}
+.nav a{
+
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 20px;
+    margin: 8px;
+    width: max-content;
+}
+
+.nav{
+    background-color: rgb(17, 151, 17);
+    max-width: 100%;
+
+}
+
+.icon {
+float:right ;
+
+}
+
+.secondnav{
+    max-width: 100%;
+    background-color: whitesmoke;
+}
+
+.secondnav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    float: left;
+    ;
+}
+.secondnav :hover{
+  color: rgb(15, 202, 15);
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ .barwithflex{background-color: darkolivegreen;
+
+text-align: center;}
+
+.stand{
+display: flex
+;flex-direction: row;
+}
+.welcome{
+    background-color: rgba(23, 114, 23, 0.733);
+    height: 410px;
+    border: 15px rgba(17, 78, 17, 0.788);
+    width: 30%;
+    padding: 50px;
+    margin: 20px;
+    
+}
+.content{
+    display: flex;
+}
+
+.footer{
+   display: flex;
+    flex-direction: row; 
+    background-color: lawngreen;
+    max-width: 1400px;
+    height: 600px;
+    padding: 30px;
+    justify-content: space-around;
+  
+    
+}
+.floatright{
+    float: right;
+    text-align: center;
+}
+
+.last{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+.twodiv{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+.left{
+    float: left;
+    justify-content: space-between;
+}
+
+.right{
+    float: right;
+    justify-content: space-around;
+}
+.hover:hover{
+    color:rgba(75, 150, 0, 0.671) ;
+    
+}
+.hover{
+
+    border-top: 1px solid gray;
+    font-size: small;
+}
